@@ -7,5 +7,4 @@ resources:
 - 01-ClusterRoleBinding.yaml
 - 01-secrets.yaml
 - 00-appgate-test-crd-v13.yaml
-- LocalUser.yaml
 - 02-appgate-operator.yaml
