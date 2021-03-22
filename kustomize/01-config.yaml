@@ -9,7 +9,7 @@ data:
   appgate-operator-timeout: "30"
   appgate-operator-dry-run: "0"
   appgate-operator-cleanup: "0"
-  appgate-operator-two-way-sync: "0"
+  appgate-operator-two-way-sync: "1"
   appgate-operator-ssl-no-verify: "1"
 
   # Uncomment this to specify a custom CA certificate used to create the
