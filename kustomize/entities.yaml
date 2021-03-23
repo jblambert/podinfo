@@ -78,3 +78,14 @@ spec:
 
     return result;'
   name: admin
+---
+apiVersion: beta.appgate.com/v1
+kind: ClientConnection
+metadata:
+  name: clientconnection
+  namespace: appgate-test-1
+spec:
+  profiles:
+  - identityProviderName: local
+    name: admin
+    spaKeyName: '12345'
