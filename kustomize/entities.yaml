@@ -2,6 +2,7 @@ apiVersion: beta.appgate.com/v1
 kind: LocalUser
 metadata:
   name: jlambert
+  namespace: appgate-test-1
 spec:
   appgate_metadata:
     passwordFields:
@@ -17,6 +18,7 @@ apiVersion: beta.appgate.com/v1
 kind: LocalUser
 metadata:
   name: admin
+  namespace: appgate-test-1
 spec:
   appgate_metadata:
     passwordFields:
