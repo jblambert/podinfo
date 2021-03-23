@@ -1,5 +1,5 @@
 apiVersion: beta.appgate.com/v1
-kind: LocalUser
+kind: localuser
 metadata:
   name: jlambert
 spec:
@@ -14,7 +14,7 @@ spec:
   name: jlambert
 ---
 apiVersion: beta.appgate.com/v1
-kind: LocalUser
+kind: localuser
 metadata:
   name: admin
 spec:
