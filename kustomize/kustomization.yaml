@@ -8,4 +8,3 @@ resources:
 - 01-secrets.yaml
 - 00-appgate-test-crd-v13.yaml
 - 02-appgate-operator.yaml
-- entities.yaml
