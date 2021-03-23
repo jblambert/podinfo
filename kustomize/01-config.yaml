@@ -5,9 +5,9 @@ metadata:
   name: appgate-test-1-configmap
   namespace: appgate-test-1
 data:
-  appgate-operator-host: "https://160.1.16.132:444"
+  appgate-operator-host: "https://52.61.95.168:444"
   appgate-operator-timeout: "30"
-  appgate-operator-dry-run: "1"
+  appgate-operator-dry-run: "0"
   appgate-operator-cleanup: "0"
   appgate-operator-two-way-sync: "1"
   appgate-operator-ssl-no-verify: "1"
