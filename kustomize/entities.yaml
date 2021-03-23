@@ -6,7 +6,7 @@ metadata:
 spec:
   appgate_metadata:
     passwordFields:
-    - R2FsZW5h
+    - password: 'Galena'
     uuid: b8d6d431-7137-47bc-8933-076ebbf2b597
   email: jlambert@applied-insight.com
   failedLoginAttempts: 0
