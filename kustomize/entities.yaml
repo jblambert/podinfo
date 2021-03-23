@@ -28,6 +28,9 @@ spec:
     ports:
     - 1-62536
     subtype: tcp_up
+    monitor: 
+      properties:
+        enabled: false
   appgate_metadata:
     uuid: bceb265a-5b5b-4686-82af-ae0a9956715b
   conditions:
