@@ -1,0 +1,19 @@
+apiVersion: beta.appgate.com/v1
+kind: Entitlement
+metadata:
+  name: admin
+  namespace: appgate-test-1
+spec:
+  actions:
+  - action: allow
+    hosts:
+    - 10.0.0.0/8
+    ports:
+    - 1-62536
+    subtype: tcp_up
+  appgate_metadata:
+    uuid: bceb265a-5b5b-4686-82af-ae0a9956715b
+  conditions:
+  - Always
+  name: admin
+  site: Default Site

@@ -2,6 +2,7 @@ apiVersion: beta.appgate.com/v1
 kind: LocalUser
 metadata:
   name: jlambert
+  namespace: appgate-test-1
 spec:
   appgate_metadata:
     passwordFields:
@@ -11,22 +12,5 @@ spec:
   failedLoginAttempts: 0
   firstName: Joshua
   lastName: Lambert
+  password: Galena
   name: jlambert
----
-apiVersion: beta.appgate.com/v1
-kind: LocalUser
-metadata:
-  name: admin
-spec:
-  appgate_metadata:
-    passwordFields:
-    - password
-    uuid: 5e360c9d-8756-41b4-9597-601712881a5c
-  email: admin@email.com
-  failedLoginAttempts: 0
-  firstName: Builtin
-  lastName: Administrator
-  name: admin
-  notes: Built-in administrator user.
-  tags:
-  - builtin
