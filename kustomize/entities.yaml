@@ -1,6 +1,23 @@
 apiVersion: beta.appgate.com/v1
 kind: LocalUser
 metadata:
+  name: blambert
+  namespace: appgate-test-1
+spec:
+  appgate_metadata:
+    passwordFields:
+    - password
+    uuid: b8d6d431-7137-47bc-8933-076ebbf2b597
+  email: blambert@applied-insight.com
+  failedLoginAttempts: 0
+  firstName: Bob
+  lastName: Lambert
+  password: 'Galena'
+  name: blambert
+---
+apiVersion: beta.appgate.com/v1
+kind: LocalUser
+metadata:
   name: jlambert
   namespace: appgate-test-1
 spec:
