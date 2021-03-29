@@ -7,7 +7,7 @@ spec:
   appgate_metadata:
     passwordFields:
     - password
-    uuid: b8d6d431-7137-47bc-8933-076ebbf2b597
+    uuid: b8d6d431-7137-47bc-8933-076ebbf2b596
   email: blambert@applied-insight.com
   failedLoginAttempts: 0
   firstName: Bob
